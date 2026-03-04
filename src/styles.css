@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%;
+  background-color: rgba(192, 207, 192, 0.3);
+  overflow-x: hidden;
+}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+:root {
+  --primary-color: #175d65;
+  --secondary-color: rgba(100, 128, 100, 0.09);
+}
+.mat-mdc-button:hover .mdc-button__ripple::before,
+.mat-mdc-button:hover .mdc-button__ripple::after {
+  opacity: 0.6 !important;
+  border-radius: 20px !important;
+}
+
+.information-header {
+  margin-left: 20px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+
+  color: var(--primary-color);
+
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 10px 14px;
+  border-radius: 14px;
+
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(6px);
+
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.10),
+    0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.information-header::before {
+  content: "";
+  width: 10px;
+  height: 28px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, var(--primary-color), rgba(0, 123, 135, 0.35));
+}
+
