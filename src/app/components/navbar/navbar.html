@@ -1,0 +1,12 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row class="toolbar-row">
+    <span class="brand" routerLink="/home">My Personal Site</span>
+
+    <span class="spacer"></span>
+
+    <nav class="links" aria-label="Main navigation">
+      <a mat-button [disableRipple]="true" routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+      <a mat-button [disableRipple]="true" routerLink="/contact" routerLinkActive="active">Contact</a>
+    </nav>
+  </mat-toolbar-row>
+</mat-toolbar>

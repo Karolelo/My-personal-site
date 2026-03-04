@@ -1,0 +1,30 @@
+.toolbar-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+/*.spacer {
+  flex-grow: 1;   !* może rosnąć i zabierać wolne miejsce *!
+  flex-shrink: 1; !* może się kurczyć, gdy brakuje miejsca *!
+  flex-basis: auto; !* startowa „szerokość” (tu praktycznie i tak wyjdzie minimalna) *!
+}*/
+.brand {
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.active {
+  text-decoration: underline;
+  font-weight: 700;
+}

@@ -1,0 +1,7 @@
+<div class="project-info-container">
+  <h1 class="information-header">{{projectName}}</h1>
+  <app-scrollable-photo-gallery [photosUrls]="photosUrl"></app-scrollable-photo-gallery>
+  <div class="description-container">
+    <p class="project-description">{{ projectDescription$ | async }}</p>
+  </div>
+</div>
