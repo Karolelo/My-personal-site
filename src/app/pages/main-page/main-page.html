@@ -1,0 +1,19 @@
+<div class="creator-info-container">
+  <img ngSrc="IMG_1679.jpeg" alt="Avatar" class="creator-avatar" [height]="400" [width]="400">
+  <div class="description-container">
+    <h1 class="information-header">About me:</h1>
+  <p class="description">
+    Hello, I'm Karol, a student.
+    I'm 24 years old from Warsaw, Poland.
+    I like to train Muay Thai and spend time with my friends, especially abroad.
+    I'm a graduated Computer Science student at the Polish-Japanese Academy of Information Technology.
+    Specialized in databases and web development.
+    If you want to contact me, send me a message in the contact form.
+  </p>
+  </div>
+</div>
+
+<div class="project-container">
+  <h1 class="information-header">Main projects:</h1>
+  <app-scrollable-card-list [cards]="projects"></app-scrollable-card-list>
+</div>
