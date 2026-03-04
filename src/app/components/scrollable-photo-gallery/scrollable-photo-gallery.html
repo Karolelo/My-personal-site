@@ -1,0 +1,16 @@
+<div class="gallery">
+<div class="gallery-container" #scrollContainer>
+ <!-- @for (url of photosUrls; track url) {
+    <img class="photos" ngSrc="{{url}}" height="400" width="400" priority>
+  }-->
+  <img class="photo" ngSrc="{{actualUrl}}" height="400" width="400" priority>
+</div>
+<div class="navigation-container">
+  <mat-icon (click)="GetPrevImage()">
+    chevron_left
+  </mat-icon>
+  <mat-icon (click)="getNextImage()">
+    chevron_right
+  </mat-icon>
+</div>
+</div>

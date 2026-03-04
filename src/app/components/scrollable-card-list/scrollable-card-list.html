@@ -1,0 +1,16 @@
+<div class="scrollable-list">
+  <button mat-icon-button (click)="scrollLeft()">
+    <mat-icon>chevron_left</mat-icon>
+  </button>
+  <div class="card-container" #scrollContainer>
+    @for (card of cards; track card) {
+      <app-projects-card [title]="card.title"
+                         [iconPath]="card.url"
+                         [shortDescription]="card.description">
+      </app-projects-card>
+    }
+  </div>
+  <button mat-icon-button (click)="scrollRight()">
+    <mat-icon>chevron_right</mat-icon>
+  </button>
+</div>

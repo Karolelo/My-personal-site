@@ -1,0 +1,14 @@
+<mat-card class="project-card">
+  <mat-card-header>
+    <mat-card-title id="title">{{title}}</mat-card-title>
+  </mat-card-header>
+  <img ngSrc="{{iconPath}}" width="400" height="400" priority>
+  <mat-card-content>
+    <p class="description">
+      {{shortDescription}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button (click)="seeProject()">See</button>
+  </mat-card-actions>
+</mat-card>

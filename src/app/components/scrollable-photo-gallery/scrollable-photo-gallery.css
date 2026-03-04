@@ -1,0 +1,47 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+.navigation-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.navigation-container mat-icon {
+  cursor: pointer;
+  font-size: 30px;
+  scale: 1.5;
+  margin: 0 20px;
+}
+
+.navigation-container mat-icon:hover {
+  color: var(--primary-color);
+  scale: 1.7;
+  transition: transform 0.3s ease;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  gap: 16px;
+  padding: 0 20px;
+}
+.photo {
+  width: 70%;
+  height: 60%;
+  border-radius: 16px;
+  object-fit: cover;
+}
