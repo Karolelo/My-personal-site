@@ -25,8 +25,8 @@ export class MainPage {
       url: "img_2.png"
     },
     {
-      title: 'Script in Azure CLI and powershell for taking repos from azure devops',
-      description: 'This is not regular script easy available on the internet it takes repo with specific branch and restores branch if it was deleted ',
+      title: 'Azure Script',
+      description: 'Script for taking repo for projects from Azure Devops very advanced',
       url: "img_3.png"
     }
   ]

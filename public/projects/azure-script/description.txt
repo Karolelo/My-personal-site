@@ -1,0 +1,8 @@
+  This is script for taking repos from azure CLI.
+What makes it different from other scripts is that
+it recover deleted branches if exists and also
+different repo can have different feed, which complicated
+sometimes situation when we backuping C# projects.
+Script meant to be in diffrent files but for simplicity
+it is in one file.
+No need to thank me ; )
