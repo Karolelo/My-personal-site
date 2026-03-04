@@ -1,0 +1,43 @@
+.contact-form {
+  margin-top: 8px;
+  width: 100%;
+  display: grid;
+  gap: 16px;
+  align-items: stretch;
+}
+
+.contact-page {
+  display: grid;
+  justify-items: center;
+  gap: 16px;
+  padding: 24px 16px;
+}
+
+.contact-card {
+  width: min(760px, 100%);
+  border-radius: 16px;
+  background-color: transparent;
+}
+mat-card-content {
+  padding: 20px;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.message-textarea {
+  resize: none;
+  overflow: auto;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4px;
+}
+
+.mat-mdc-unelevated-button:hover {
+  opacity: 0.4!important;
+}
+
