@@ -1,0 +1,17 @@
+  Projects is aplication for managing workres in companies.
+Consist of 6 modules, first one is admin panel in which we can manage users and groups.
+Second module is task management where we can create tasks and assign them to users.
+Third module is calendar where we can see our actual events and tasks.
+Fourth module is Gantt chart where we can see our actual tasks and their progress.
+Fifth module is grade and feedback management where we can give feedback to users.
+Sixth module is group management where we can create groups and invite users to them.
+
+Application was created in .NET Framework and Angular as frontend.
+Database was created in SQL Server.
+Everything is contenrized in docker-compose.
+
+If u want to see how it work online:
+https://engineerpjatkapp.click/login
+
+Example login TestAdmin
+Example password: Admin12

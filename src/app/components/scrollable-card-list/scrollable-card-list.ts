@@ -18,21 +18,26 @@ export class ScrollableCardList {
   @Input() cards!: ProjectData[]
   @ViewChild('scrollContainer', {static: false}) scrollContainer!: ElementRef;
 
-  scrollLeft() {
-    this.scrollContainer.nativeElement.scrollBy(
-      {
-        left: -300,
-        behavior: 'smooth'
-      }
-    )
+
+  private readonly scrollStep = 340; // 320px karta + ok. 20px gap
+
+  scrollLeft(): void {
+    const container = this.scrollContainer?.nativeElement;
+    if (!container) return;
+
+    container.scrollBy({
+      left: -this.scrollStep,
+      behavior: 'smooth'
+    });
   }
 
-  scrollRight() {
-    this.scrollContainer.nativeElement.scrollBy(
-      {
-        left: 300,
-        behavior: 'smooth'
-      }
-    )
+  scrollRight(): void {
+    const container = this.scrollContainer?.nativeElement;
+    if (!container) return;
+
+    container.scrollBy({
+      left: this.scrollStep,
+      behavior: 'smooth'
+    });
   }
 }

@@ -1,0 +1,14 @@
+  University project for the course "MAS Modeling and implementation of information systems"
+It was written in C# using Winforms and entity framework.
+Actually entity framework here was biggest mistake of the project.
+For long term it has problems with creating lots of instance of DBContext.
+What is solved by defualt using dependency injection in web project.
+But it is quiet fun, you can add prisoners to diffrent prisons and also kick them out.
+Also you hiring personel and you see nice photos on every form.
+
+Link to the project:
+https://github.com/Karolelo/MAS-Project-PJATK---Prison-Architecture
+
+Te most interesting part is the documentation probably showing
+that i can create quiet nice documentation.
+DM me if you want to see it.
